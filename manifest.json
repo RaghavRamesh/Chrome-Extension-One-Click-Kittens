@@ -22,7 +22,8 @@
 
 	"background": {
 		"scripts": [
-			"js/popup.js"
+			"js/popup.js",
+			"js/tester.js"
 		]
 	}
 }	
