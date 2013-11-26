@@ -12,7 +12,8 @@
 
 	"permissions": [
 		"https://secure.flickr.com/",
-		"contextMenus"
+		"contextMenus",
+		"notifications"
 	],
 
 	"browser_action": {
