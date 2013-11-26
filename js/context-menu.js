@@ -14,3 +14,16 @@ chrome.contextMenus.create({
 	console.log("ockittens_context was created!");
 });
 
+// HTML notification - deprecated I think
+// var notification = webkitNotifications.createHTMLNotification(
+// 	'pages/notification.html'
+// );
+
+// Text notification
+var notification = webkitNotifications.createNotification(
+	'img/icon.png',
+	'Hey there!',
+	'Thank you for subscribing for OCK!'
+);
+
+notification.show();
