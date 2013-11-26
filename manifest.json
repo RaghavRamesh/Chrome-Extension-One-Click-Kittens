@@ -5,6 +5,10 @@
 	"description": "This extension demonstrates a broswer action with kittens.",
 	"version": "1.0",
 
+	"icons": {
+		"16": "img/icon.png"
+	},
+
 	"permissions": [
 		"https://secure.flickr.com/"
 	],
